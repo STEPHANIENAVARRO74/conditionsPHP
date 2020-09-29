@@ -1,0 +1,16 @@
+<?php
+$weapons = ['fists', 'a whip', 'a gun'];
+$opponentWeapon = $weapons[rand(0,2)]; // cela permet de choisir une arme de manière aléatoire//
+
+switch ($opponentWeapon){
+    case 'fists':
+        $indyWeapon = $weapons[2];
+        break;
+    case 'a whip':
+        $indyWeapon = $weapons[0];
+        break;
+    case 'a gun':
+        $indyWeapon = $weapons[1];
+        break;
+    default:
+}
